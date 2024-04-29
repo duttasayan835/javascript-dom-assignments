@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Profile Picture</title>
+    <link rel="stylesheet" href="1.update_profile_picture.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Update Profile Picture</h1>
+      <br />
+      <div id="button">
+        <input
+          id="file-picker"
+          type="file"
+          onchange="changeProfile()"
+          aria-label="YOUR PROFILE PICTURE"
+        />
+      </div>
+      <h3>Your Profile Picture</h3>
+      <div id="img">
+        <img
+          src="./WhatsApp Image 2024-04-29 at 13.02.46_263df04f.jpg"
+          alt="Profile picture"
+          id="image"
+        />
+      </div>
+    </div>
+    <script src="1.update_profile_picture.js"></script>
+  </body>
+</html>

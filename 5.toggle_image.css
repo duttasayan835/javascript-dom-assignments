@@ -1,0 +1,23 @@
+body {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff9c6;
+  padding: 5%;
+  border: 12px solid black;
+}
+#image {
+  top: 0%;
+  margin: 0%;
+  padding: 0%;
+  height: 400px;
+  width: 500px;
+  margin-top: 4%;
+  border: 2px solid black;
+}
+#btn {
+  display: flex;
+  justify-self: center;
+  width: max-content;
+}

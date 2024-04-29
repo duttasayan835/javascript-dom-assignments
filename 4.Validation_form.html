@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="4.Validation_form.css">
+  </head>
+  <style>
+   
+  </style>
+  <body>
+    <form onsubmit="Validate(event)">
+      <h1 style="text-align: center">Sign Up Form</h1>
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          style="cursor: pointer"
+          placeholder="(Minimum 3 characters)"
+          name="Name"
+          id="name"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          style="cursor: pointer"
+          placeholder="Enter your E-mail"
+          name="email"
+          id="email"
+        />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          style="cursor: pointer"
+          placeholder="(Minimum 8 characters)"
+          name="password"
+          id="password"
+        />
+      </div>
+      <button type="submit" id="submit" style="cursor: pointer">Submit</button>
+      <br />
+      <br />
+    </form>
+    <script src="4.Validation_form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    border: 4px solid #0011ff;
+    height: auto;
+    background-color: #cffdff;
+  }
+  div {
+    margin: 10px;
+  }
+  #submit {
+    margin-left: 35%;
+    border: 2px solid black;
+  }
+  input {
+    border: 2px solid black;
+  }

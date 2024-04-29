@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #counter {
+    padding-left: 30%;
+  }

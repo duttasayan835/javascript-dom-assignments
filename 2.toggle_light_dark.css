@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  margin-left: 27%;
+  display: flex;
+  justify-content: center;
+  
+}
